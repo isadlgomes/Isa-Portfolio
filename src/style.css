@@ -111,3 +111,41 @@ p {
   padding-left: 0;
   font-size: 18px;
 }
+
+.buttons:hover,
+.contact-link:hover,
+.about-link:hover {
+  color: orange;
+}
+
+@media (max-width: 576px) {
+  h1.heading1 {
+    font-size: 50px;
+  }
+  h2.heading2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  h3.heading3 {
+    font-size: 15px;
+    opacity: 0.7;
+  }
+  .email-link {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  p.body-text {
+    text-align: center;
+  }
+  .buttons {
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  img {
+    display: none;
+  }
+}
