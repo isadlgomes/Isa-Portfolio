@@ -72,8 +72,6 @@ p {
 
 .buttons {
   display: flexbox;
-  justify-content: center;
-  margin: auto;
   border-radius: 5px;
   padding: 15px 10px;
   text-decoration: none;
@@ -121,13 +119,14 @@ p {
 @media (max-width: 576px) {
   h1.heading1 {
     font-size: 50px;
+    text-align: center;
   }
   h2.heading2 {
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
   }
   h3.heading3 {
-    font-size: 15px;
+    font-size: 25px;
     opacity: 0.7;
   }
   .email-link {
@@ -137,10 +136,8 @@ p {
   p.body-text {
     text-align: center;
   }
-  .buttons {
-    display: flexbox;
-    justify-content: center;
-    margin: auto;
+  .homepage-buttons {
+    text-align: center;
   }
 
   img {
