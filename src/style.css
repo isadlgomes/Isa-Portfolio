@@ -5,8 +5,7 @@
 }
 
 p {
-  background: var(--secondary-color);
-  padding: 20px;
+  padding: 10px;
   border-radius: 4px;
   font-size: 18px;
   line-height: 1.5;
@@ -45,8 +44,7 @@ p {
 }
 
 .page-paragraphs p {
-  display: flex;
-  margin: 30px 10px;
+  margin: 10px 200px;
   text-align: center;
   background: none;
 }
@@ -65,7 +63,8 @@ p {
 }
 
 .email-link:hover,
-.github-link:hover {
+.github-link:hover,
+.shecodes-link:hover {
   text-decoration: underline;
   color: #636363;
 }
@@ -83,7 +82,6 @@ p {
 
 .body-text {
   text-align: left;
-  background: none;
   padding-left: 0;
   font-size: 18px;
 }
@@ -98,6 +96,11 @@ p {
   margin: auto;
   max-width: 80%;
   text-align: center;
+}
+
+.about-list {
+  margin: 15px 200px;
+  font-size: 18px;
 }
 
 #homepage-margin {
