@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
+  --primary-color: #7231f7;
+  --secondary-color: #e7def9;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -41,16 +41,11 @@ p {
   text-align: center;
 }
 
-.navigation-links {
-  display: flex;
-  margin-top: 40px;
-  justify-content: center;
+.navbar-nav {
+  margin-left: auto;
 }
 
-.navigation-links a {
-  margin: 20px 30px 70px 0px;
-  border-radius: 4px;
-  padding: 20px 15px;
+.navbar-nav a {
   text-decoration: none;
   text-transform: capitalize;
 }
