@@ -138,6 +138,16 @@ p {
     text-align: center;
   }
 
+  .page-paragraphs p {
+    margin: 10px 30px;
+    text-align: center;
+  }
+
+  .about-list {
+    margin: 10px 30px;
+    text-align: left;
+  }
+
   .homepage-buttons {
     text-align: center;
   }
