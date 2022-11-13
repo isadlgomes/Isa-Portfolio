@@ -57,14 +57,13 @@ p {
   text-decoration: none;
 }
 
-.github-link {
+.contact-link {
   color: var(--primary-color);
   text-decoration: none;
 }
 
 .email-link:hover,
-.github-link:hover,
-.shecodes-link:hover {
+.contact-link:hover {
   text-decoration: underline;
   color: #636363;
 }
@@ -114,12 +113,6 @@ p {
   opacity: 0.8;
 }
 
-#img-project {
-  margin-top: 50px;
-  box-shadow: var(--box-shadow);
-  color: white;
-}
-
 @media (max-width: 576px) {
   h1.heading1 {
     font-size: 48px;
@@ -148,7 +141,8 @@ p {
     text-align: left;
   }
 
-  .homepage-buttons {
+  .homepage-buttons,
+  .project-buttons {
     text-align: center;
   }
 
